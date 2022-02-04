@@ -4,10 +4,10 @@ const sequelize = require("../util/database");
 
 const Cart = sequelize.define("cart", {
   id: {
-    type: Sequelize.INTEGER,
+    type: Sequelize.STRING,
     autoIncrement: true,
     allowNull: false,
-    primaryKy: true,
+    primaryKey: true,
   },
 });
 
